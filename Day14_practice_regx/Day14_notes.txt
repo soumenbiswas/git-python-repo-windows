@@ -1,0 +1,74 @@
+Day14:
+-----
+Regular Expression:
+----------------
+*	re module : default module in python
+*	helps in making a pattern/expression --> which represents more than one word.
+*	different types of operations or functions in re:
+	1.	match
+	2.	search
+	3.	findall
+	4.	finditer
+	5.	split
+	6.	replace
+	7.	complie
+	
+General systex of all expression:
+	
+	re.<operation>(pattern,your_string)
+	
+1.	match:
+	match operation will work as search operation; but in the print we need to directly
+	apply the search string; it will not giv output of the pattern matching; that can be done with 
+	search operation.
+	match always look that the pattern that we are giving that is there or not in the first word of 
+	the given string.
+
+2.	Search:
+	in a string to seach one or more words then we use search.
+	for more than one word we will use pattern
+	search will look in the entire line; where ever it will find the outout; it will give.
+
+	
+	
+3.	In case we want to match multiple words; then "match" operation is not a sutiable operation.
+	if we use match then what will happen:
+	suppose we have a to match two words from a string.
+	the patterns will be like :
+	my_pat="[it][so]"
+	if we match the pattern with "match" operation then it will take the match as :
+	#it its into to is ..
+	what ever the workd it will get the first case, it will do that search and stop it.
+	
+4.	In that case we will use findall as to match all the words that we want to match.
+	it will not give any starting index or ending index, it will only match the words.
+
+5.	if we want to see the starting index of each words that is matched; then we have to use: finditer operation
+	we will get a object which is callable, and which contains all the information about the object.
+
+6.	when to go with finditer:
+	* when we need to search for more than one words
+	* when we need to starting-ending index and other of those words 
+
+7.	number of character matching:
+	my_str="hello how are u?"
+	my_pat="h.."						//this will work as two character matching after after h  
+	print re.findall(my_pat,my_str)
+
+		or we can use it like this:
+		my_pat="i.{4}"					//this means 4 dots after i
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

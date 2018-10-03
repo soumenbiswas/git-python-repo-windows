@@ -1,0 +1,71 @@
+Python Day2 Notes:
+-------------------
+
+
+
+1.	Commenting out multiple lines using ''' (triple cotations)
+2.	we can use double cotations three times also to commenting out  """
+3.	\n    is used to break the lines into multiple lines
+4.	when we put sting to a variable we will always use cotations, may be a single cotation , double cotation, triple cotation.
+5.	to print different variables in a sigle line we need to place commas
+	
+		x=5
+		y=11
+		z=3av
+		
+		print x,y,z
+		
+		output: 5 11 3av
+		
+6.	to print the value of a variable with statement
+		
+			x=3
+			print "the value of x is : ",x
+	
+7.	to split lines in a print statement
+	
+		print "x=",x,"\ny=",y,"\nz=",z
+
+8.	how to print the momory location in RAM where the variable is stored
+		
+		print id(X)
+
+-------------		
+
+TYPE CASTING or TYPE CONVERSION
+
+	
+9.	we can covert a number into a string
+	
+		x=4				//this will be stored as a number
+		y=str(x)		//this value of x will be stored as string
+		
+10.	we can convert string which is a number as number	
+
+		x="4"				//here 4 is a number which is get stored as a string
+		y=int(x)			//this value of x will be stored as a integer here.
+	
+
+	but sting with a pure string value cannot be converted into integer or float
+-----------------------	
+
+Rules to define Variable names:
+--------------------------------
+	1. variable name should contain only a-z,A-Z,0-9 and _ only.
+	2. Dont start with number.
+	3. Should not contain space.
+	4. case-sensitive
+	5. it should not a key word(pre-defined words)
+	
+
+----------------------
+
+12.	How to delete a variable
+
+		del x
+		
+13.	Another print format which is used mostly
+
+	print "x={},y={},z={}"format(x,y,z)
+	
+		

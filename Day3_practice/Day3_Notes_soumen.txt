@@ -1,0 +1,214 @@
+Python Day3 Notes:
+==================
+
+1.	Data types in python:
+-------------------------
+	a. Numbers
+	b. Strings
+	c. Boolean : Ture  or False
+	
+
+Boolean:	
+--------
+	
+2.	in boolean only zero(0) = False
+	any value other than 0 is = True
+	
+3.	if we print a empty string(if there is no space in between "", if there is space it wil not treat as a empty string) 
+	and put that into a boolean data type. if we print the boolean data, none will give False.
+	
+4.	zero or None or empty string ==> will give boolean data as False
+
+Strings:
+--------
+
+5.	in strings we can use 
+		a.	' '
+		b.	" "
+		c.	"""  """
+		
+6. Index representation of a string:
+	---------------------------------
+
+		x="Python"  -->      P   y  t   h  o  n
+
+				+ve index:   0   1   2  3  4  5
+
+			   -ve index:   -6 -5  -4 -3 -2 -1
+
+			index: 0 and -1 more useful.
+			
+			
+			
+--------
+7.	if the window is not sufficient then we use \ to write it in the next line, but the output will be considered as in the same window.
+
+
+--------
+String operations:
+
+
+8.	to print length of the string we use len
+
+	x="soumen"
+	print len(x)
+	
+	output: 6
+	
+	** space in between the words is also considered as a character.
+	
+9.	to print some message for the user
+
+		x="soumen"
+		string_length=len(x)
+		
+		print "The lenght of the string is : ",string_length
+		
+		
+		
+	** here string 'x' is a string variable, and string_length is a integer variable.
+
+
+String indexing:
+
+10.	if we want to extract specific letter from the given string we need to use the string indexing.
+	
+		x="soumen"
+		
+		print "to extract the letter from the string: " x[3]
+		
+		output: to extract the letter from the string: m
+		
+11.	to print range in string then we need to do:
+
+		range="This is from the Narendra's class"
+		#we want to extract Narendra's
+
+		print range
+		print "extract from the variable range: ",range[17:27]
+		
+		
+12.	strings are immutable:
+	
+		name="soumen"
+		print name
+		print len(name)			//this will print the lenth of the string
+		
+		print name[3:5]			//this will print the index
+		
+	*** what ever be the operation the staring will still be the same if we print the string again
+	
+	
+		print name
+		
+		
+		
+13.	To make a string entire into a lowecase of upper case:
+
+		name="sOUmen"
+
+		print name.lower()
+		
+		print name.upper()
+		
+		
+		output:  	soumen
+					SOUMEN
+					
+14.	To print the string with title()
+
+		name="sOUmen biSWAs"
+		
+		print name.title()
+		
+		output:	Soumen Biswas
+		
+15.	To print in captilize () , only the startig will be captial
+
+
+		name="sOUmen biSWAs"
+		
+		print name.capitalize()
+		
+		output: Soumen biswas
+		
+16.	To check wether the words are in title format or not, in that case we use:
+
+	use istitle()
+	
+		
+		
+			prog="this is narendra's class"
+			
+			print prog.istitle()
+
+
+
+				output: False
+				
+17.	to check for the upper case or lower case:
+
+		print prog.isupper()
+		print prog.islower()
+		
+		
+18.	to check is our string consists of blank space
+	
+		prog=" "
+		
+		print prog.isspace()
+
+		
+		output : True
+
+		
+19.	to check starting of a string
+
+		name="Soumen"
+		
+		print name.startswith('S')
+		
+		output: True
+		
+
+20.	to check string ends with 		
+		
+		name="Soumen"
+		
+		print name.endswith('n')
+		
+		output: True
+		
+21.	to check string consists of only alpahabeticals or not, if there is some space in between then it will not show true
+
+	name="Soumen"
+		
+	print name.isalpha()
+		
+	output: True
+
+21.	to check the string consists of digits or not
+
+	digi="23213"
+		
+	print digi.isdigit()
+		
+	output: True
+	
+22.	to check the sting consists of alpha-numeric
+
+	name="Soumen6551"
+		
+	print name.isalnum()
+		
+	output: True
+	
+23.	strig concatination
+
+	str1="hi"
+	str2="bye"
+	
+	print str1+str2
+	
+	
+	output:  hibye

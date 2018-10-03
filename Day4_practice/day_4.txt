@@ -1,0 +1,66 @@
+1.	Strings are IMMUTEABLE
+		This means that we cannot change the part of a string, but if we want to change completly 
+		then we can change.
+
+2.	strip operation:
+		strip will delete spaces in your string, that may be on the left side or the right side 
+		of the string
+		
+	#print my_string.strip()
+		this will delete the spaces from both left and rigt side
+	
+	#print my_string.lstrip()
+		this will delete the spaces from lefdt side of the string
+	
+	#print my_string.rstrip()
+		this will delete the spaces from right side of the string
+		
+	
+	** we can delete perticular word or letter by using strip operation.
+		
+		
+		my_string="java 1.7.05"
+		my_java=my_string.strip("java ")	
+		print "my_java variable"		//storing it into a variable
+		print my_java
+		
+	** using multiple strip operations
+	
+		my_string = "hello how are you"
+		print my_string.strip('hello').strip('you')
+		
+		output: how are
+		
+		
+--------------
+
+special characters and symbols
+
+	SYMBOL			MEAING
+	
+	\				continuation of a line
+	\'				single quote(')
+	\"				double quote (")
+	\n				new line
+	\r				carriage return
+	\t				horizontal tab
+	\v 				vertical tab
+	
+------------------
+
+Data structre :
+
+	are used to arrange data.
+	
+		-list	--->	[]	--> mutable	--> some parts of the list data can be changed
+		-tuple	--->	()	-->	immutable --> some parts of the tuple cannot be changed/ just like strings
+		-dict	--->	{}	-->	mutable --> u can change the parts of a dictionary
+		=========
+		-set	--->	set{} ---> 
+		
+		-------------------------------------------------------------------------------------
+		
+		
+
+		
+		

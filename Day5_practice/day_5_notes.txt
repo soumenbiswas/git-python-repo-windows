@@ -1,0 +1,24 @@
+Day 5 :
+
+		-list	--->	[]	--> mutable	--> some parts of the list data can be changed
+		-tuple	--->	()	-->	immutable --> some parts of the tuple cannot be changed/ just like strings
+		-dict	--->	{}	-->	mutable --> u can change the parts of a dictionary
+		=========
+		-set	--->	set{} ---> 
+		
+		
+		
+	**	opoerations that are valid for mutable data structure (list and dictionary)
+		Append 
+		insert
+		extend 
+		remove
+		pop
+		
+		**imp: these operations are not applicable for immutable data-structure(tuple)
+		
+	operations in tuple:
+	1.	count
+	2.	index
+	
+	

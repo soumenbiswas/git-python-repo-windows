@@ -1,0 +1,21 @@
+Regrular expression:
+	re module - default module in python
+
+        making a pattern/expression --> which represents more than one word
+
+	Type of operations or functions in re:
+		match
+		search
+		findall
+		finditer
+		split
+		replace
+		complie
+
+General of all expression:
+	re.<operation>(pattern,your_string)
+
+match and serach:
+	to look for a given patter/string in a given a str.
+match: will look at very first position in a given str for given word or pattern.
+serach: will look at any position

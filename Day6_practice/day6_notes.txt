@@ -1,0 +1,145 @@
+Day6
+
+1.	length function is used for :
+	len()  --> str, list, tuple
+	
+2.	to see ASCII values in python
+	Type in python panel:
+		ord('r')
+		ord('a')
+		
+		etc..
+3.	Operators :
+	
+		Group 1:	Takes values as inputs, performs operations on input values directly
+					and gives values as output
+			
+			1.	Arithematic operators
+			2.	Assignment operators
+		Group 2:	It takes the input as values and it will give the output either as true or 
+					false
+					
+			3.	comparison operators
+			4.	identity operators
+			5.	membership operators
+		Group 3:	takes true or false as input, and the ouput is also true or false
+			6.	logical operators
+			
+		Group 4:	doesnot perform operations directly from inputs; data will be converted to 
+					binary then will give the reasult, that reasult again will be a value only , not binary.
+			7.	bitwise operators
+			
+			
+			
+	**group 2 out put can be the input for group 3 operator.
+	
+
+Arithematic Operators:
+
+	*	addition 		+
+	*	subtracton		-
+	*	multiplication 	*
+	*	Division		/
+	*	Mudulo			%
+	*	Floor division	//		#this will always make the fraction part as 0
+	*	exponential		**
+	
+	
+Assignment operators:
+
+	operators			examples		ssame as
+	
+		=				a=b				a=b
+		+=				a+=b			a=a+b
+		-=				a-=b 			a=a-b
+		*=				a*=b			a=a*b
+		/=				a/=b			a=a/b
+		%=				a%=b			a=a%b 
+		
+
+		
+Compresoin operatiors:		this will give True or False
+
+	operator			function
+		<					less than
+		<=					less than equal to
+		>					larger than
+		>=					larget or equal to
+		==					equal to
+		!=					not equal to
+		
+	for string compresion it will depend on the ASCII code of that.
+
+	
+Identity operators:
+
+		*when two items are mached then use identity operators
+		
+		1.	is
+		2.	is not
+		
+		
+		x=45
+		b=32
+		
+		i=x is b 		#output : false
+		i=x is not be	#output : false
+		
+
+Membership operators:
+
+
+	1.	in
+	2. 	not in
+	
+	print"---------------membership operators:------------"
+
+	my_app_group=["member1","member2","member3"]
+
+	mem_opr="member1" in my_app_group
+	print mem_opr
+	mem_opr="soumen" not in my_app_group
+	print mem_opr
+
+	
+	
+Logical operators:		the output will be as True or False
+
+	1.	and 
+	2.	or 
+	3.	not		: if the condition is true this will make the condition as false and vice-versa
+	
+	
+	condition1	<logical_operator>	condition2
+	
+
+	AND logical condition
+	---------------------
+	
+	Condition1		condition1			condition1 AND condition2
+	
+	True			True				True
+	True			False				Flase
+	False			True				False
+	False			False				False
+	
+	
+	
+	OR logical condition
+	---------------------
+	
+	Condition1		condition1			condition1 OR condition2
+	
+	True			True				True
+	True			False				True
+	False			True				True
+	Flase			False				False
+	 
+		
+		
+		
+BITWISE operators:
+	
+	1.	~ (negation/complemet)
+	2.	|	(or)
+	
